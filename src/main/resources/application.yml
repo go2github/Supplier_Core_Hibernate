@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/flipcart
+#    password: root@123
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
