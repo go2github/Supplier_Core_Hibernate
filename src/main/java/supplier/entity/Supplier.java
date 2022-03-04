@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "supplier")
-
+@NamedQuery(name = "Supplier_By_Id",query = "from Supplier where supplier_Id=:id")
 public class Supplier {
 
     @Id
